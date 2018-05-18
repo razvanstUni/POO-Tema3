@@ -1,5 +1,5 @@
 #include <iostream>
-#include "assets/PQueue.cpp"
+#include "assets/PQueue.h"
 using namespace std;
 
 int main() {

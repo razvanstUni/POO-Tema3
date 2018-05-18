@@ -5,8 +5,6 @@
 #ifndef PROIECT_POO_1_LIST_H
 #define PROIECT_POO_1_LIST_H
 
-#endif //PROIECT_POO_1_LIST_H
-
 /*
  * Definition of list node
  */
@@ -20,6 +18,14 @@ struct List {
     List(T, int);
 };
 
+template <typename T>
+List<T>::List(T value, int priority) {
+    this->value = value;
+    this->priority = priority;
+    this->next = 0;
+}
+
+#endif //PROIECT_POO_1_LIST_H
 
 
 
